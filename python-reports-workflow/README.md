@@ -50,7 +50,6 @@ For real report exports, either copy CSV files into a local working folder or se
 export LOCAL_ISSUE_REPORTS_FOLDER="/path/to/your/report/csvs"
 ```
 
-Do not commit real report exports. They may contain locations, notes, email addresses, and other sensitive data.
 
 ## Bike Lane And Multi-Use Trail Data
 
@@ -87,14 +86,5 @@ local_issue_report_map_2026-05-23_v1.html
 
 If version 1 already exists, the script creates version 2, then version 3, and so on.
 
-## Public Repository Notes
 
-Keep these out of Git:
-
-- real report CSV exports
-- generated HTML maps
-- generated cleaned CSV files
-- virtual environments
-- Python cache folders
-- local GeoPackage datasets unless they are explicitly licensed for redistribution
 
