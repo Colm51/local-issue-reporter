@@ -1,0 +1,16 @@
+*.csv
+*.html
+__pycache__/
+*.pyc
+.DS_Store
+**/.DS_Store
+
+reports_env/
+.venv/
+venv/
+
+*.gpkg
+data/*.gpkg
+
+!sample_data/
+!sample_data/example_reports.csv

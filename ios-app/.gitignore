@@ -1,0 +1,17 @@
+.DS_Store
+**/.DS_Store
+
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+
+xcuserdata/
+*.xcuserdatad/
+
+DerivedData/
+build/
+*.xcarchive
+*.xcresult
+
+*.csv
+*.html

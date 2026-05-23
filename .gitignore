@@ -1,0 +1,35 @@
+.DS_Store
+**/.DS_Store
+
+# Xcode local/user files
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+xcuserdata/
+*.xcuserdatad/
+DerivedData/
+build/
+*.xcarchive
+*.xcresult
+
+# Generated report exports and maps
+*.html
+combined_reports_cleaned*.csv
+local_issue_report_map*.html
+submitted-reports*.csv
+local-issue-report-*.csv
+
+# Python local environment/cache
+reports_env/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local GIS datasets
+*.gpkg
+data/*.gpkg
+
+# Keep public sample data
+!python-reports-workflow/sample_data/
+!python-reports-workflow/sample_data/example_reports.csv

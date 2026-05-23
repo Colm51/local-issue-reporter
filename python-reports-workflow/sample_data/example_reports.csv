@@ -1,0 +1,3 @@
+report_id,issue_type,notes,latitude,longitude,apple_maps_link,timestamp,destination_email,photo_count
+SAMPLE1,Pothole,Example report for documentation only,43.6532,-79.3832,https://maps.apple.com/?q=Reported%20Issue%20SAMPLE1&ll=43.6532,-79.3832,2026-05-23T09:00:00Z,reports@example.com,1
+SAMPLE2,Bike lane issue,Example bike lane report for documentation only,43.6629,-79.3957,https://maps.apple.com/?q=Reported%20Issue%20SAMPLE2&ll=43.6629,-79.3957,2026-05-23T09:15:00Z,reports@example.com,0
