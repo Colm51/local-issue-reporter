@@ -1,5 +1,9 @@
 # LocalIssueReporter Public Repository
 
+LocalIssueReporter is a lightweight prototype civic issue reporting prototype built with SwiftUI, Folium, and GeoPandas.
+
+The project explores simple workflows for reporting local infrastructure and public realm issues using email-based submission and optional local spatial analysis tools.
+
 This repository contains two related but separate parts:
 
 - `ios-app/` - the SwiftUI iOS prototype app
@@ -37,27 +41,9 @@ See:
 python-reports-workflow/README.md
 ```
 
-The workflow no longer uses hard-coded local machine paths. It supports:
+The public repository avoids hard-coded local machine paths and personal configuration values. It includes:
 
 - a default local `sample_data/` folder
 - `LOCAL_ISSUE_REPORTS_FOLDER` for real CSV exports
 - `LOCAL_ISSUE_BIKE_LANES_PATH` for a local cycling network GeoPackage
-
-Real report CSV exports, generated HTML maps, generated cleaned CSVs, Python virtual environments, and local GIS datasets should not be committed.
-
-## Public Repository Safety
-
-This repository is prepared to avoid committing:
-
-- personal destination emails
-- local Mac paths
-- nested Git repositories
-- Xcode user state
-- Python virtual environments
-- `.DS_Store` files
-- generated CSV exports
-- generated HTML maps
-- local GeoPackage datasets
-
-Before publishing, run a final review for private data, real report exports, personal identifiers, and local-only files.
 
