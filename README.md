@@ -11,6 +11,8 @@ This repository contains two related but separate parts:
 
 The iOS app does not require the Python workflow to run. The Python workflow is for local analysis after report CSV files have been exported.
 
+Agentic AI was used to support the coding.
+
 ## iOS App
 
 The app lets a user create a local issue report, attach photos, capture location coordinates, and send the report through the native iOS Mail composer.
